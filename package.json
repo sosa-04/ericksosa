@@ -9,8 +9,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^6.3.2",
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/sitemap": "^3.4.1",
+    "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.10",
-    "astro": "^5.9.4",
-    "tailwindcss": "^4.1.10"
+    "astro": "^5.9.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
   }
 }

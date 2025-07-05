@@ -17,16 +17,16 @@ export const projects: project[] = [
   },
   {
     title: 'Infraestructura de E-Commerce',
-    image: '/images/projects/traductor.png',
+    image: '/images/projects/azure.png',
     description: 'Diseño e implementación de la infraestructura necesaria para el funcionamiento óptimo de un e-commerce mediante servicion en la nube de azure.',
     tech: ['Terraform', 'Azure'],
-    github: 'https://github.com/sosa-04/TraductorLenguajeSenias',
-  },
+    github: 'https://github.com/sosa-04/terraform_functions',
+  }
 ];
 
 export const navItems: itemNavigation[] = [
   {name: 'Inicio', href: '/#home'},
-  {name: 'Projectos', href: '/projectsPage'},
+  {name: 'Proyectos', href: '/projectsPage'},
   {name: 'Habilidades', href: '/#skills'},
   {name: 'Contacto', href: '/#contact'},
 ];
