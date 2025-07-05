@@ -22,7 +22,7 @@ utilizando servicios de la nube de Azure.
 
 ### Diagrama de la Arquitectura Propuesta
 
-![digrama infraestructura](/public/images/proyecto/diagrama.png)
+![digrama infraestructura](/images/proyecto/diagrama.png)
 
 Esta arquitectura propuesta nos permite realizar desde actividades poco exigentes hasta las más exigentes, esto gracias a la combinación de distintos elementos de la nube de Azure. Permitiendole a la empresa poder gestionar sus operaciones de una excelente forma y dandole la oportunidad de tener reportes avanzados sobre los datos que venta que le ayudan a tomar mejores desciciones. Ademas, permite que el usuario tenga una experiencia fluida en el portal gracias a que se trabaja con una SSR y elementos que permiten ejecutar tareas intensivas en segundo plano.
 
@@ -36,29 +36,29 @@ Esta arquitectura propuesta nos permite realizar desde actividades poco exigente
 
 **Frontffice:** Aquí se muestra la salida del apply en terraform para elementos del frontoffice.
 
-![backoffice](/public/images/proyecto/frontoffice.png)
+![backoffice](/images/proyecto/frontoffice.png)
 
 **Backoffice:**  Aquí se muestra la salida del apply en terraform para elementos del backoffice.
 
-![backoffice](/public/images/proyecto/backOffice.png)
+![backoffice](/images/proyecto/backOffice.png)
 
 **Analítica:**  Aquí se muestra la salida del apply en terraform para la function que almacenara el ETL.
 
-![backoffice](/public/images/proyecto/analitica.png)
+![backoffice](/images/proyecto/analitica.png)
 
 **Functions:**  Aquí se muestra la salida del apply en terraform para las base de datos transaccional y los elementos para ejecución de tareas en segundo plano.
 
-![backoffice](/public/images/proyecto/functions.png)
+![backoffice](/images/proyecto/functions.png)
 
 **Backoffice:**  Se muestran todos los elementos desde el panel de administración de Azure.
 
-![backoffice](/public/images/proyecto/elementosAzure.png)
+![backoffice](/images/proyecto/elementosAzure.png)
 
 **DB:**  Se muestra la conexión a la base de datos trasaccional y al data warehouse.
 
-![backoffice](/public/images/proyecto/dbTransaccional.png)
+![backoffice](/images/proyecto/dbTransaccional.png)
 
-![backoffice](/public/images/proyecto/dwh.png)
+![backoffice](/images/proyecto/dwh.png)
 
 ## Conclusiones
 
