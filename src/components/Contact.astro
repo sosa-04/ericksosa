@@ -1,0 +1,30 @@
+---
+import { contacts } from "../content/data/db";
+---
+<section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Contacto</h2>
+    <p class="text-lg text-gray-600 mb-12">
+      ¿Tienes un proyecto interesante? ¡Escríbeme!
+    </p>
+
+    <div class="flex justify-center flex-wrap gap-6">
+      {contacts.map((contact) => ( 
+        <a href={contact.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-20 h-20 bg-blue-100 rounded-lg flex items-center justify-center hover:bg-blue-200 transition-colors duration-300"            title="Enviar correo">
+          <svg class="w-7 h-7 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d={contact.icon}
+            />
+          </svg>
+        </a>
+      ) )}
+    </div>
+  </div>
+</section>

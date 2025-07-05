@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Enlaces de navegación */
+.nav-link {
+    color: #6b7280;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #2563eb;
+}
+
+.nav-link.active {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+/* Enlaces del footer */
+.footer-link {
+    color: #6b7280;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #2563eb;
+}
+
+/* Estados de focus para accesibilidad */
+*:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 640px) {
+    .project-card,
+    .experience-card {
+        padding: 16px;
+    }
+}

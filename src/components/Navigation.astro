@@ -1,0 +1,45 @@
+---
+import { navItems } from '../content/data/db'
+---
+
+<nav class="bg-white shadow-sm fixed top-0 w-full bg-white shadow z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <!-- Logo -->
+            <div class="hidden md:flex space-x-8">
+                <a class="hidden md:flex text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text 
+                    text-transparent" href="/#home">
+                    <img src="/images/Erick.jpg" alt="Erick Sosa" class="w-10 h-10 rounded-full mr-3">
+                    Erick Sosa
+                </a>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex space-x-8">
+                {navItems.map((item) => (
+                    <a href={item.href} class="nav-link">{item.name}</a>
+                ) )}
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden pb-4">
+            <div class="flex flex-col space-y-2">
+                {navItems.map((item) => (
+                    <a href={item.href} class="nav-link">{item.name}</a>
+                ) )}
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    import "../scripts/mobileButtom.js";
+</script>

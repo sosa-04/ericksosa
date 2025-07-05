@@ -1,16 +1,25 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Home.astro';
+import Skills from '../components/Skills.astro';
+import Contact from '../components/Contact.astro';
+import AboutMe from '../components/AboutMe.astro';
+
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Erick Sosa - Portafolio">
+    <Hero
+        name="Erick Sosa"
+        title="Desarrollador Backend"
+        description="Especializado en desarrollo de APIs REST y optimización de bases de datos."
+        image="/images/Erick.jpg" 
+    />
+    <AboutMe 
+        title="Sobre mí"
+        description= "Soy un ingeniero en sistemas con entusiasmo por crear sistemas sólidos, eficientes y escalables. Me especializo en la construcción de APIs, gestión de bases de datos y la lógica que impulsa las aplicaciones web. Disfruto resolver problemas técnicos, trabajar en equipo y aprender constantemente nuevas tecnologías del entorno backend."
+        image="/images/Erick.jpg"
+    />
+    <Skills />
+    <Contact />
+</Layout>

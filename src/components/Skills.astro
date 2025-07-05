@@ -1,0 +1,25 @@
+---
+import {skills} from '../content/data/db'
+---
+
+<section id="skills" class="w-full flex items-center py-10 md:py-20">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+        Mis Habilidades
+      </h2>
+      <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+        Estas son algunas de las tecnologías con las que he trabajado.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-6">
+      {skills.map((item, index) => (
+        <div class="bg-gray-100 hover:bg-gray-200 rounded-xl shadow-md p-4 
+            transition-transform duration-300 hover:scale-105">
+          <img class="h-16 md:h-20 w-auto object-contain" src={item.route} />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
