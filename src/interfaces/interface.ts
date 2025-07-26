@@ -4,6 +4,7 @@ export interface project {
   description: string;
   tech: string[];
   github: string;
+  url: string;
 }
 
 export interface itemNavigation {

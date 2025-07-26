@@ -2,18 +2,12 @@ import type {project, itemNavigation, skill, socialLink, contact} from '../../in
 
 export const projects: project[] = [
   {
-    title: 'Swapping',
-    image: '/images/projects/swapping.png',
-    description: 'Swapping is un marketplace en el que puedes vender y comprar productos tecnológicos nuevos o de segunda mano.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'java', 'springBoot', 'MySQL'],
-    github: 'https://github.com/sosa-04/Swapping_Back_End',
-  },
-  {
-    title: 'Traductor de Lenguaje de Señas',
-    image: '/images/projects/traductor.png',
-    description: 'Modelo de IA que traduce lenguaje de señas a texto, utilizando técnicas de visión por computadora y aprendizaje profundo.',
-    tech: ['Python', 'Flask', 'TensorFlow', 'OpenCV'],
-    github: 'https://github.com/sosa-04/TraductorLenguajeSenias',
+    title: 'Pepeline de Datos y API',
+    image: '/images/projects/azure.png',
+    description: 'Creacion de un pipeline de datos y una API para la gestion de datos utilizando Azure.',
+    tech: ['Terraform', 'Azure', 'Python', "fastAPI"],
+    github: 'https://github.com/sosa-04/terraformApiCanciones.git',
+    url: "/apiProject"
   },
   {
     title: 'Infraestructura de E-Commerce',
@@ -21,7 +15,24 @@ export const projects: project[] = [
     description: 'Diseño e implementación de la infraestructura necesaria para el funcionamiento óptimo de un e-commerce mediante servicion en la nube de azure.',
     tech: ['Terraform', 'Azure'],
     github: 'https://github.com/sosa-04/terraform_functions',
-  }
+    url: "/azureProject"
+  },
+  {
+    title: 'Swapping',
+    image: '/images/projects/swapping.png',
+    description: 'Swapping is un marketplace en el que puedes vender y comprar productos tecnológicos nuevos o de segunda mano.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'java', 'springBoot', 'MySQL'],
+    github: 'https://github.com/sosa-04/Swapping_Back_End',
+    url: '#'
+  },
+  {
+    title: 'Traductor de Lenguaje de Señas',
+    image: '/images/projects/traductor.png',
+    description: 'Modelo de IA que traduce lenguaje de señas a texto, utilizando técnicas de visión por computadora y aprendizaje profundo.',
+    tech: ['Python', 'Flask', 'TensorFlow', 'OpenCV'],
+    github: 'https://github.com/sosa-04/TraductorLenguajeSenias',
+    url: '#'
+  },
 ];
 
 export const navItems: itemNavigation[] = [
@@ -58,7 +69,7 @@ export const socialLinks: socialLink[] = [
 
 export const contacts: contact[] = [
   {
-    url:'https://mail.google.com/mail/?view=cm&fs=1&to=example@gmail.com',
+    url:'https://mail.google.com/mail/?view=cm&fs=1&to=josue.sosaaleman@gmail.com',
     icon:'M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'
   },
 ];
