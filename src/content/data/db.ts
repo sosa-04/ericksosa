@@ -3,7 +3,7 @@ import type {project, itemNavigation, skill, socialLink, contact} from '../../in
 export const projects: project[] = [
   {
     title: 'Pepeline de Datos y API',
-    image: '/images/projects/azure.png',
+    image: '/images/projects/api.png',
     description: 'Creacion de un pipeline de datos y una API para la gestion de datos utilizando Azure.',
     tech: ['Terraform', 'Azure', 'Python', "fastAPI"],
     github: 'https://github.com/sosa-04/terraformApiCanciones.git',
