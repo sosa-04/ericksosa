@@ -2,6 +2,14 @@ import type {project, itemNavigation, skill, socialLink, contact} from '../../in
 
 export const projects: project[] = [
   {
+    title: 'Generador de Reportes',
+    image: '/images/projects/api.png',
+    description: 'Creación de csv con Azure functions utilizando la PokeApi',
+    tech: ['Terraform', 'Azure', 'Python', "fastAPI", "Nest.js"],
+    github: 'https://github.com/sosa-04/terraformApiCanciones.git',
+    url: "/pokeProject"
+  },
+  {
     title: 'Pepeline de Datos y API',
     image: '/images/projects/api.png',
     description: 'Creacion de un pipeline de datos y una API para la gestion de datos utilizando Azure.',
