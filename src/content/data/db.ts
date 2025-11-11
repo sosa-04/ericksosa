@@ -45,7 +45,7 @@ export const projects: project[] = [
 
 export const navItems: itemNavigation[] = [
   {name: 'Inicio', href: '/#home'},
-  {name: 'Proyectos', href: '/projectsPage'},
+  {name: 'Proyectos', href: '#projects'},
   {name: 'Habilidades', href: '/#skills'},
   {name: 'Contacto', href: '/#contact'},
 ];
