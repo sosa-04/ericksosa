@@ -2,12 +2,12 @@ import type {project, itemNavigation, skill, socialLink, contact} from '../../in
 
 export const projects: project[] = [
   {
-    title: 'Generador de Reportes',
-    image: '/images/projects/api.png',
-    description: 'Creación de csv con Azure functions utilizando la PokeApi',
-    tech: ['Terraform', 'Azure', 'Python', "fastAPI", "Nest.js"],
-    github: 'https://github.com/sosa-04/terraformApiCanciones.git',
-    url: "/pokeProject"
+    title: 'Traductor de Lenguaje de Señas',
+    image: '/images/projects/traductor.png',
+    description: 'Modelo de IA que traduce lenguaje de señas a texto, utilizando técnicas de visión por computadora y aprendizaje profundo.',
+    tech: ['Python', 'Flask', 'TensorFlow', 'OpenCV'],
+    github: 'https://github.com/sosa-04/TraductorLenguajeSenias',
+    url: '#'
   },
   {
     title: 'Pepeline de Datos y API',
@@ -16,6 +16,14 @@ export const projects: project[] = [
     tech: ['Terraform', 'Azure', 'Python', "fastAPI"],
     github: 'https://github.com/sosa-04/terraformApiCanciones.git',
     url: "/apiProject"
+  },
+  {
+    title: 'Generador de Reportes',
+    image: '/images/projects/api.png',
+    description: 'Creación de csv con Azure functions utilizando la PokeApi',
+    tech: ['Terraform', 'Azure', 'Python', "fastAPI", "Nest.js"],
+    github: 'https://github.com/sosa-04/terraformApiCanciones.git',
+    url: "/pokeProject"
   },
   {
     title: 'Infraestructura de E-Commerce',
@@ -31,14 +39,6 @@ export const projects: project[] = [
     description: 'Swapping is un marketplace en el que puedes vender y comprar productos tecnológicos nuevos o de segunda mano.',
     tech: ['HTML', 'CSS', 'JavaScript', 'java', 'springBoot', 'MySQL'],
     github: 'https://github.com/sosa-04/Swapping_Back_End',
-    url: '#'
-  },
-  {
-    title: 'Traductor de Lenguaje de Señas',
-    image: '/images/projects/traductor.png',
-    description: 'Modelo de IA que traduce lenguaje de señas a texto, utilizando técnicas de visión por computadora y aprendizaje profundo.',
-    tech: ['Python', 'Flask', 'TensorFlow', 'OpenCV'],
-    github: 'https://github.com/sosa-04/TraductorLenguajeSenias',
     url: '#'
   },
 ];
